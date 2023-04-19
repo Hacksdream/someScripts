@@ -26,7 +26,7 @@ catch  [System.Net.WebException]{
 # 修改python源，添加环境变量
 # 如果环境变量i添加后不生效，再添加一套环境变量，格式如下：
 # [System.Environment]::SetEnvironmentVariable("PYTHON_BUILD_MIRROR_URL_SKIP_CHECKSUM", 1, "User")
-[System.Environment]::SetEnvironmentVariable("PYTHON_BUILD_MIRROR_URL", "https://repo.huaweicloud.com/python/", "User")
+[System.Environment]::SetEnvironmentVariable("PYTHON_BUILD_MIRROR_URL", "https://repo.huaweicloud.com/python/", "Machine")
 ########## END: pyenv-win installation and configuration ##########
 
 ######### 安装python3.8并配置pip源 #########
